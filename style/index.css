@@ -253,9 +253,14 @@ span {
     margin: 0px 0px 12px;
 }
 .box img {
-    max-width: 100%;
+    width: 100%;
     transition: 0.3s all ease;
+    object-fit: cover;
+    height: 300px; 
+
 }
+
+
 .portofolio .heading {
     font-size: 5.5rem;
     text-align: center;
